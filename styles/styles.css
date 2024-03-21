@@ -1,7 +1,28 @@
+:root {
+  --main-font: kaushan script;
+  --secondary-font: kelly slab;
+}
+
 body {
-  background-color: burlywood;
+  background-color: #f1ebff;
   font-family: kelly slab;
 }
-h1 {
-  font-family: kaushan script;
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  font-family: var(--main-font);
+  font-size: 76px;
+  margin: 200px 0 0;
+}
+.hero h2 {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+}
+.hero p {
+  font-family: var(--main-font);
+}
+
+button {
+  background-color: #a6d7ff;
 }
