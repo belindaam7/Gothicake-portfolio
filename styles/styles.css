@@ -4,25 +4,70 @@
 }
 
 body {
-  background-color: #f1ebff;
+  background: linear-gradient(
+    #ff99ff 0%,
+    #f1ebff 10%,
+    #a6d7ff 15%,
+    #c2f6ff 25%,
+    #f1ebff 30%,
+    #ff99ff 40%,
+    #eeffff 45%,
+    #a6d7ff 55%,
+    #ff99ff 65%,
+    #f1ebff 75%,
+    #a6d7ff 85%,
+    #c2f6ff 90%,
+    #f1ebff 100%
+  );
+  background-attachment: fixed;
   font-family: kelly slab;
 }
+.main-content {
+  border-radius: 15px;
+  margin: 7%;
+  background-color: #ffffff;
+}
+
 .hero {
   text-align: center;
+
 }
 .hero h1 {
-  font-family: var(--main-font);
-  font-size: 76px;
-  margin: 200px 0 0;
+  margin: 0;
 }
 .hero h2 {
-  font-family: var(--secondary-font);
-  font-size: 14px;
+  font-family: var(--main-font);
+  font-size: 22px;
+  margin-top: -160px;
+  margin-bottom: 30px;
 }
 .hero p {
+  font-family: var(--main-font);
+}
+.gallery {
+  margin-top: 200px;
+}
+.heading {
+  font-size: 48px;
   font-family: var(--main-font);
 }
 
 button {
   background-color: #a6d7ff;
+  border-radius: 10%;
+  box-shadow: 7px 3px 10px #ffbcff;
+  padding: 10px 10px;
+  margin: 7px;
+  font-weight: bolder;
+  font-size: large;
+  border: none;
+}
+button:hover {
+  transform: rotate(3deg);
+  transition: 300ms;
+}
+
+.cake {
+width: 200px;
+height: auto;
 }
