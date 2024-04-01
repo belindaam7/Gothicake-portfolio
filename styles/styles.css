@@ -7,7 +7,7 @@ body {
   background: linear-gradient(
     #ff99ff 0%,
     #f1ebff 10%,
-    #a6d7ff 15%,
+    #a6d7ff 17%,
     #c2f6ff 25%,
     #f1ebff 30%,
     #ff99ff 40%,
@@ -24,13 +24,14 @@ body {
 }
 .main-content {
   border-radius: 15px;
-  margin: 7%;
+  margin: 0;
+  margin-top: 10%;
+  margin-bottom: 10%;
   background-color: #ffffff;
 }
 
 .hero {
   text-align: center;
-
 }
 .hero h1 {
   margin: 0;
@@ -39,13 +40,13 @@ body {
   font-family: var(--main-font);
   font-size: 22px;
   margin-top: -160px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .hero p {
   font-family: var(--main-font);
 }
 .gallery {
-  margin-top: 200px;
+  margin-top: 10px;
 }
 .heading {
   font-size: 48px;
@@ -68,6 +69,25 @@ button:hover {
 }
 
 .cake {
-width: 200px;
-height: auto;
+  width: 200px;
+  height: auto;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.container {
+}
+
+.tiny-logo {
+  width: 80px;
+  float: left;
+}
+
+.navbar-btn {
+  background-color: #ffbcff;
+  box-shadow: 7px 3px 10px #a6d7ff;
+  margin: 20px;
+  width: 100px;
 }
