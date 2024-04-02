@@ -24,7 +24,7 @@ body {
 }
 .main-content {
   border-radius: 15px;
-  margin: 0;
+  margin: -20px;
   margin-top: 10%;
   margin-bottom: 10%;
   background-color: #ffffff;
@@ -69,8 +69,10 @@ button:hover {
 }
 
 .cake {
-  width: 200px;
-  height: auto;
+  min-width: 200px;
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .navbar {
@@ -90,4 +92,13 @@ button:hover {
   box-shadow: 7px 3px 10px #a6d7ff;
   margin: 20px;
   width: 100px;
+}
+
+.gallery p {
+ margin: 10px;
+}
+
+.cake-name {
+  font-family: var(--main-font);
+  font-size: larger;
 }
