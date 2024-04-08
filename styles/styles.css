@@ -23,8 +23,9 @@ body {
   font-family: kelly slab;
 }
 .main-content {
+  text-align: center;
   border-radius: 15px;
-  margin: -20px;
+  margin: 20px;
   margin-top: 10%;
   margin-bottom: 10%;
   background-color: #ffffff;
@@ -34,12 +35,15 @@ body {
   text-align: center;
 }
 .hero h1 {
-  margin: 0;
+  margin-top: -100px;
+  
 }
 .hero h2 {
   font-family: var(--main-font);
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 22px;
-  margin-top: -160px;
+  margin-top: -130px;
   margin-bottom: 20px;
 }
 .hero p {
@@ -95,10 +99,29 @@ button:hover {
 }
 
 .gallery p {
- margin: 10px;
+ margin: 20px;
 }
 
 .cake-name {
   font-family: var(--main-font);
   font-size: larger;
+  padding-top: 40px;
+}
+
+.artist-img {
+  border-radius: 15px;
+  margin: 10px 10px 40px;
+  padding: 15px;
+  box-shadow: 5px 5px 25px #ffbcff;
+}
+h2.about {
+  font-family: var(--main-font);
+  margin-top: -80px;
+}
+
+p.about {
+  display: block;
+  margin: 0 auto;
+  padding-left: 30px;
+  text-align: justify;
 }
