@@ -90,12 +90,18 @@ button:hover {
   width: 80px;
   float: left;
 }
-
+.navbar-buttons {
+  display: flex;
+  
+  
+}
 .navbar-btn {
   background-color: #ffbcff;
   box-shadow: 7px 3px 10px #a6d7ff;
   margin: 20px;
   width: 100px;
+  float: end;
+  
 }
 
 .gallery p {
