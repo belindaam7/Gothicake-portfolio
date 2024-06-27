@@ -132,3 +132,11 @@ p.about {
   padding-left: 30px;
   text-align: justify;
 }
+
+.email {
+  cursor: pointer;
+}
+
+.email:hover{
+  
+}
