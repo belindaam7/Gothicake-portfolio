@@ -36,7 +36,7 @@ body {
   text-align: center;
 }
 .hero h1 {
-  margin-top: -140px;
+  margin-top: -100px;
   
 }
 .hero h2 {
@@ -68,6 +68,8 @@ button {
   font-size: large;
   border: none;
 }
+
+
 button:hover {
   transform: rotate(3deg);
   transition: 300ms;
