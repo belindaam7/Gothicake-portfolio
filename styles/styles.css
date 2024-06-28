@@ -142,3 +142,19 @@ p.about {
 .email:hover{
   
 }
+
+.media-icons a:link {
+  color: #ff99ff
+}
+
+.media-icons{
+  color:#ff99ff
+}
+
+.connect-links {
+  color: #75b7ed;
+}
+
+.contact-page h1, h4{
+  font-family: var(--main-font);
+}
